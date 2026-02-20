@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Apartment Vacancies in Seattle</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <!-- include google web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Oswald" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <!-- include icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/c3.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <!-- include c3.js to make charts. c3.js is built upon d3.js -->
+    <script src="js/d3.js"></script>
+    <script src="js/c3.min.js"></script>
+</head>
+
+<body>
+    <!-- sidebar -->
+    <div id="info">
+        <div id="title">
+            Apartment Vacancies in Seattle
+            <span><a href="https://scrungus.club" target="_blank"><i class="bi bi-twitter"></i></a></span>
+            <span><a href="https://github.com/arbitrary-isthmus" target="_blank"><i class="bi bi-github"></i></a></span>
+            <span id="reset"><a href="#">reset</a></span>
+        </div>
+<!--
+	<div id="count" class="card">
+            <h5 id="desc">This here's a holdover from the earthquake template; its usage is semi-meaningless in the new context of apartment vacancies.</h5>
+            <p id="earthquake-count"></p>
+        </div>
+        <div id="earthquake-chart"></div>
+	-->
+
+	<p>If this website actually worked, here you'd be able to see the percentage of vacant apartment units per census tract within Seattle. If you're really hellbent on seeing that stuff anyway, just click the source in the bottom right. They did it better than I ever could.
+	</p>
+	<p>In lieu of functionality, here's a contextually-relevant upgrade to the standard lorem ipsum:</p>
+	<!--        <div id="footer"> meh -->
+	  <div>
+	  I met a traveler from an antique land<br />
+	  who said: Two vast and trunkless legs of stone<br />
+	  stand in the desert. Near them, on the sand,<br />
+	  half-sunk, a shattered visage lies, whose frown<br />
+	  and wrinkled lip, and sneer of cold command,<br />
+	  tell that its sculptor well those passions read<br />
+	  which yet survive, stamped on these lifeless things—<br />
+	  the hand that mocked them and the heart that fed.<br />
+	  And on the pedestal these words appear:<br />
+	  "My name is <span style="font-variant: small-caps">Ozymandias</span>, King of Kings;<br />
+	  look on my works, ye mighty, and despair!"<br />
+	  No thing beside remains. Round the decay<br />
+	  of that colossal wreck, boundless and bare,<br />
+	  the lone and level sands stretch far away.<br />
+	  <span style="float:right">―Percy Bysshe Shelley</span>
+        </div>
+    </div>
+    <div id="map"></div>
+    <div id="legend"></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
