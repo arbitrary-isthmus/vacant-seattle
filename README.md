@@ -1,0 +1,1 @@
+Note that I had to zip up my geojson file in order to get under the ridiculously-strict 25MB filesize limit. It shouldn't negatively affect functionality, though, because the data didn't display properly in the first place. I did get the map to work, however. Hope that's still there.
